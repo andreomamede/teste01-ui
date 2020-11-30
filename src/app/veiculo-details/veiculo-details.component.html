@@ -1,0 +1,24 @@
+<h2>Veiculo Details</h2>
+
+<hr />
+<div *ngIf="veiculo">
+  <div>
+    <label><b>Marca: </b></label> {{veiculo.marca}}
+  </div>
+  <div>
+    <label><b>Modelo: </b></label> {{veiculo.modelo}}
+  </div>
+  <div>
+    <label><b>Ano: </b></label> {{veiculo.ano}}
+  </div>
+  <div>
+    <label><b>Descrição: </b></label> {{veiculo.descricao}}
+  </div>
+  <div>
+    <label><b>Vendido: </b></label> {{veiculo.vendido}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Veiculo List</button><br>
