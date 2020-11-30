@@ -4,10 +4,10 @@ O projeto foi gerado com [Angular CLI] version 8.0.1.
 
 ## Instalação
 
-Utilizar versão 10.23 do Node
+#Utilizar versão 10.23 do Node
 
-npm install
-npm install -g @angular/cli
+#npm install
+#npm install -g @angular/cli
 
 ## Build do projeto
 
